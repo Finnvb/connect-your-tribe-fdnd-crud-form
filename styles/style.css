@@ -8,12 +8,22 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+h1{
+    background-color: black;
+    color: aliceblue;
+    padding: 15px 0px 15px 30px;
+ 
+}
+
 table, th{
-    border: 1px solid blue;
+   
     width: 100vw;
     padding: 10px;
+    background-color: black;
+    color: aliceblue;
 
 }
+
 
 .tableHeader{
     font-size: 1.5rem;
@@ -30,6 +40,6 @@ form {
     background-color: navajowhite;
 }
 
-.editForm {
-    /* display: none; */
+a{
+    color: aliceblue;
 }
