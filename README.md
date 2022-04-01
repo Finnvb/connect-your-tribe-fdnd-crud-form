@@ -34,8 +34,9 @@ Dit is een CRUD form waar je een overzicht krijgt van alle tribe members uit de 
 ## Gebruik
 
 ## Bronnen
+Tutorials van:
 - [Traversy Media](https://www.youtube.com/c/TraversyMedia)
-- [Web dev simplified(https://www.youtube.com/c/WebDevSimplified)
+- [Web dev simplified](https://www.youtube.com/c/WebDevSimplified)
 
 ## Licentie
 
