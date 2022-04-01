@@ -8,24 +8,33 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-h1{
-    background-color: black;
+h1 {
     color: aliceblue;
+
+}
+
+body {
+    background-color: black;
     padding: 15px 0px 15px 30px;
- 
 }
 
-table, th{
-   
-    width: 100vw;
-    padding: 10px;
-    background-color: black;
+table,
+th {
+
+    width: 80em;
+    padding-top: 1em;
     color: aliceblue;
+    text-align: left;
+    /* margin: 0 auto; */
 
 }
 
+td {
+    margin: 1em;
+}
 
-.tableHeader{
+
+.tableHeader {
     font-size: 1.5rem;
     font-weight: bold;
     padding-bottom: 1rem;
@@ -36,10 +45,69 @@ form {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    background-color: navajowhite;
+    justify-self: center;
+    color: white;
 }
 
-a{
+input,
+textarea,
+select {
+    max-width: 250px;
+    min-width: 250px;
+    max-height: 150px;
+    margin: 0.5em 0;
+    padding: 0.3em;
+}
+
+.editForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.editForm h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.editForm button {
+    margin-top: 1em;
+    background-color: white;
+    border: none;
+    padding: 1em 1.5em;
+    color: black;
+
+}
+
+.editForm button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+}
+
+a {
     color: aliceblue;
+    text-decoration: none;
+    transition: 0.3s ease-in;
+}
+
+a:hover {
+    color: cadetblue;
+
+}
+
+.avatarImage {
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    margin-left: 1em;
+
+}
+
+.nameAndAvatar {
+    display: flex;
+    align-items: center;
+
 }

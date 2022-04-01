@@ -6,38 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crud Form</title>
     <link rel="stylesheet" href="/styles/style.css">
-    <script src="/scripts/script.js" defer></script>
+    <script src="/scripts/edit.js" type="module" defer></script>
 </head>
 
 <body>
 
-  
+    <h1><a href="index.html">CRUD - FDND tribe API</a></h1>
     <section class="editForm">
+        <h1 id="editHeader">Edit member</h1>
         <form action="">
 
-            <label for="type">type </label>
-            <select name="type">
-                <option value="student">student</option>
-                <option value="teacher">teacher</option>
+            <label for="type">Type </label>
+            <select name="type" id="type">
+                <option value="student">Student</option>
+                <option value="teacher">Teacher</option>
             </select>
-            <label for="nickname">nickname </label>
-            <input type="text">
-            <label for="name">name </label>
-            <input type="text">
-            <label for="prefix">prefix</label>
-            <input type="text">
-            <label for="surname">surname</label>
-            <input type="text">
-            <label for="avatar">avatar </label>
-            <input type="text">
-            <label for="githubHandle">githubHandle </label>
-            <input type="text">
-            <label for="bio">bio </label>
-            <textarea name="bio">
+            <label for="nickname">Nickname </label>
+            <input type="text" id="nickname">
+            <label for="name">Name </label>
+            <input type="text" id="name">
+            <label for="prefix">Prefix</label>
+            <input type="text" id="prefix">
+            <label for="surname">Surname</label>
+            <input type="text" id="surname">
+            <label for="avatar">Avatar </label>
+            <input type="text" id="avatar">
+            <label for="githubHandle">GithubHandle </label>
+            <input type="text" id="githubHandle">
+            <label for="bio">Bio </label>
+            <textarea name="bio" id="bio">
                 </textarea>
-            <label for="url">url </label>
-            <input type="text">
-            <button type="submit" class="submit">Edit</button>
+            <label for="url">Url </label>
+            <input type="text" id="url">
+            <button type="submit" class="submit" id="submitBtn">Edit</button>
         </form>
     </section>
 </body>
